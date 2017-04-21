@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">JCI</string>
+    <string name="log_in">Log In</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="welcome_btn1">Market Report</string>
+    <string name="welcome_btn2">Test 2</string>
+    <string name="welcome_btn3">Test 3</string>
+    <string name="welcome_btn4">Test 4</string>
+    <string name="jute_variety">Jute Variety</string>
+    <string name="arrived_quantity">Arrived Quantity</string>
+    <string name="minimum_ruling_market_rate">Minimum Ruling Market Rate</string>
+    <string name="maximum_ruling_market_rate">Maximum Ruling Market Rate</string>
+    <string name="minimum_moisture_content">Minimum Moisture Content</string>
+    <string name="maximum_moisture_content">Maximum Moisture Content</string>
+    <string name="grade_composition">Grade Composition</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="form_no">Form No.</string>
+    <string name="basis">Basis</string>
+    <string name="bin_no">Bin No.</string>
+    <string name="gross_quantity">Gross Quantity</string>
+    <string name="deduction_quantity">Deduction Quantity</string>
+    <string name="net_quantity">Net Quantity</string>
+    <string name="jute_value">Jute Value</string>
+    <string name="avg_rate">Average Rate</string>
+    <string name="estimated_grade_comp">Estimated Grade Composition</string>
+    <string name="grade1">Grade 1</string>
+    <string name="grade2">Grade 2</string>
+    <string name="grade3">Grade 3</string>
+    <string name="grade4">Grade 4</string>
+    <string name="grade5">Grade 5</string>
+    <string name="grade6">Grade 6</string>
+    <string name="grade7">Grade 7</string>
+    <string name="grade8">Grade 8</string>]
+    <string name="back_img">Backgroud Image</string>
+    <string name="select">Select</string>
+    <string name="upload">Upload</string>
+    <string name="selectedImageDes">The Selected image will be displayed here</string>
+    <string name="enterPh">Enter your phone number</string>
+    <string name="purchase">Purchase</string>
+    <string name="next">Next</string>
+    <string name="viewPurchase">View Purchase Details</string>
+    <string name="knowImei">IMEI</string>
+
+
+</resources>

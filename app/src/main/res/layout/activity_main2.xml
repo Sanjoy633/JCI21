@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.surflex.jci.PurchaseActivity"
+    >
+
+
+ <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/jute_back">
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/form_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/form_no"
+                android:inputType="number"
+                android:textColor="@color/colorPrimary"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/basis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_basis"
+                android:textColor="@color/colorPrimary"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/bin_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/binNo"
+                android:inputType="number"
+                android:textColor="@color/colorPrimary"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/jute_variety"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_jute_variety"
+                android:textColor="@color/colorPrimary"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/gross_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/gross_quantity"
+                android:textColor="@color/colorPrimary"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/deduction_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/deduction_quantity"
+                android:textColor="@color/colorPrimary"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/net_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/netQuantity"
+                android:textColor="@color/colorPrimary"
+                android:inputType="text" />
+        </TableRow>
+
+             <TableRow
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent" >
+
+                 <TextView
+                     android:text="@string/jute_value"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/juteValueTxt"
+                     android:layout_marginStart="20dp"
+                     android:layout_marginLeft="20dp"
+                     android:textColor="@color/colorPrimary"/>
+                 <Space
+                     android:layout_width="5dp"
+                     android:layout_height="wrap_content" />
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:inputType="number"
+                     android:ems="10"
+                     android:id="@+id/juteValue"
+                     android:textColor="@color/colorPrimary"/>
+             </TableRow>
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent" >
+
+         <TextView
+             android:text="@string/avg_rate"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/avgRateTxt"
+             android:layout_marginStart="20dp"
+             android:layout_marginLeft="20dp"
+             android:textColor="@color/colorPrimary"/>
+         <Space
+             android:layout_width="5dp"
+             android:layout_height="wrap_content" />
+
+         <EditText
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:inputType="text"
+             android:ems="10"
+             android:id="@+id/avgRate"
+             android:textColor="@color/colorPrimary"/>
+     </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:text="@string/estimated_grade_comp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:id="@+id/textView16"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"/>
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/estimatedGrade"
+                android:textColor="@color/colorPrimary"/>
+        </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="@string/grade1"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/grade1Text"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimary"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/garde1EditText"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="@string/grade2"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/grade2Text"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimary"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/garde2EditText"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="@string/grade3"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/grade3Text"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimary"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/garde3EditText"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="@string/grade4"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/grade4Text"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimary"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/garde4EditText"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="@string/grade5"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/grade5Text"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimary"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/garde5EditText"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="@string/grade6"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/grade6Text"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimary"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/garde6EditText"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="@string/grade7"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/grade7Text"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimary"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/garde7EditText"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="@string/grade8"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/grade8Text"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimary"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/garde8EditText"
+                    android:textColor="@color/colorPrimary"/>
+            </TableRow>
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         >
+         <LinearLayout
+             android:layout_span="6"
+             android:gravity="left" >
+
+         <Button
+             android:text="@string/next"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="#FFFFFF"
+             android:textSize="14sp"
+             android:background="@drawable/buttonshape"
+             android:shadowColor="#1647A8"
+             android:shadowDx="0"
+             android:shadowDy="0"
+             android:shadowRadius="5"
+             android:id="@+id/nextBtn" />
+         </LinearLayout>
+
+
+
+     </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
